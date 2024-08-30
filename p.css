@@ -1,0 +1,582 @@
+body {
+  background-color: rgba(220, 220, 220, 0.527);
+}
+* {
+  margin: 0px;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar {
+  background-color: #0f1111;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+/** amazon symbol**/
+.navlogo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url("amazon_logo.png");
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+  margin-left: 5px;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/**Box-2**/
+.navadd {
+  color: white;
+  margin-left: 20px;
+}
+
+.add1 {
+  color: #cccccc;
+  font-size: 0.86rem;
+  margin-left: 15px;
+}
+.add2 {
+  font-size: 1rem;
+  margin-left: 4px;
+}
+.addicon {
+  display: flex;
+  align-items: center;
+}
+
+/** box-3*/
+.navsearch {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  width: 600px;
+  height: 40px;
+  border-radius: 4px;
+  margin-left: 25px;
+}
+.navsearch:hover {
+  border: 2px solid orange;
+}
+.searchselect {
+  background-color: #f3f3f3;
+  width: 45px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.searchinput {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+}
+.searchicon {
+  color: #0f1111;
+  background-color: #feb368;
+  width: 40px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+/** box 4**/
+.flag {
+  color: white;
+}
+.lang {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+/** box5 and box6**/
+.span {
+  font-size: smaller;
+}
+.navaccount {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/** box 7**/
+.cart {
+  display: flex;
+}
+.cartsym i {
+  font-size: 30px;
+}
+.cart {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/** Panel**/
+.panel {
+  background-color: #222f3d;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.all {
+  margin-left: 9px;
+}
+.panelall {
+  margin-left: 30px;
+}
+.option1 {
+  margin-left: 20px;
+  display: inline-block;
+}
+.option2 {
+  margin-left: 20px;
+  display: inline-block;
+}
+.option3 {
+  margin-left: 20px;
+  display: inline-block;
+}
+.option4 {
+  margin-left: 20px;
+  display: inline-block;
+}
+.option5 {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+/** main**/
+.hero-section {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg {
+  background-color: rgba(245, 246, 246, 1);
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  width: 80%;
+  margin-bottom: 305px;
+}
+.a {
+  text-decoration: none;
+  color: #007185;
+}
+
+/** shopping**/
+.shopping {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 280px;
+}
+.box {
+  height: 420px;
+  width: 335px;
+  border: 2px solid white;
+  background-color: white;
+}
+.heading1 {
+  width: 279px;
+  height: 27.2px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 21px;
+  font-size: 17px;
+}
+.headset {
+  position: relative;
+  top: 10px;
+}
+.keyboard {
+  position: relative;
+  left: 150px;
+  bottom: 105px;
+}
+.names1 {
+  position: relative;
+  bottom: 100px;
+}
+.headsetname {
+  display: inline;
+  position: relative;
+  left: 25px;
+  bottom: 5px;
+  font-size: small;
+}
+.keyboardname {
+  display: inline;
+  position: relative;
+  left: 125px;
+  bottom: 5px;
+  font-size: small;
+}
+.mouse {
+  position: relative;
+  bottom: 90px;
+}
+.chair {
+  position: relative;
+  bottom: 100px;
+}
+.chairname {
+  position: relative;
+  left: 220px;
+  bottom: 110px;
+  font-size: small;
+}
+.mousename {
+  position: relative;
+  bottom: 91px;
+  left: 25px;
+  font-size: small;
+}
+.seemore {
+  text-decoration: none;
+  position: relative;
+  bottom: 80px;
+  left: 25px;
+  font-size: small;
+}
+.heading2 {
+  width: 279px;
+  height: 27.2px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 21px;
+  font-size: 17px;
+}
+.teddy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.shopnow {
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 35px;
+  font-size: small;
+}
+.heading3 {
+  width: 279px;
+  height: 27.2px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 21px;
+  font-size: 17px;
+}
+.pc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 500;
+}
+.heading4 {
+  width: 279px;
+  height: 27.2px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 21px;
+  font-size: 17px;
+}
+.homedine {
+  display: flex;
+  justify-content: space-evenly;
+}
+.kitchbeauty {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.level1 {
+  padding-top: 15px;
+}
+.diningname {
+  padding-left: 33px;
+  font-size: small;
+}
+.homename {
+  padding-left: 110px;
+  font-size: small;
+}
+.kitchenname {
+  padding-left: 33px;
+  font-size: small;
+}
+.beautyname {
+  padding-left: 96px;
+  font-size: small;
+}
+.see {
+  text-decoration: none;
+  position: relative;
+  right: 60px;
+  top: 11px;
+  font-size: small;
+}
+
+/*baby section*/
+
+.babygifts {
+  background-color: white;
+  width: 1451px;
+  height: 285px;
+  position: relative;
+  bottom: 250px;
+  left: 33px;
+}
+.maintext {
+  padding-left: 20px;
+  padding-top: 21px;
+  font-size: 17px;
+  display: inline-block;
+  font-size: 19px;
+}
+.babyshop {
+  padding-left: 25px;
+  text-decoration: none;
+  font-size: small;
+}
+.babypics {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*electronics section */
+.electronics {
+  background-color: white;
+  width: 1451px;
+  height: 325px;
+  position: relative;
+  bottom: 220px;
+  left: 33px;
+}
+.elepics {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.ele1off {
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  background-color: #cc0c39;
+  color: white;
+  border-radius: 2px;
+  font-size: smaller;
+  padding-top: 5px;
+}
+.list1 {
+  font-size: 11px;
+  font-weight: lighter;
+}
+.price1 {
+  text-decoration: line-through;
+}
+
+/*home and kitchen section */
+.homekitchen {
+  background-color: white;
+  width: 1451px;
+  height: 290px;
+  position: relative;
+  left: 33px;
+  bottom: 190px;
+}
+.homekitchenpics {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+/* movies and tv */
+.movies {
+  background-color: white;
+  width: 1451px;
+  height: 275px;
+  position: relative;
+  left: 33px;
+  bottom: 160px;
+}
+.moviepics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+/* books */
+.books {
+  background-color: white;
+  width: 1451px;
+  height: 275px;
+  position: relative;
+  left: 33px;
+  bottom: 130px;
+}
+.bookspics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+/* deals under 25 */
+.deals {
+  background-color: white;
+  width: 1451px;
+  height: 325px;
+  position: relative;
+  left: 33px;
+  bottom: 100px;
+}
+.dealspics {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.ele1off {
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  background-color: #cc0c39;
+  color: white;
+  border-radius: 2px;
+  font-size: smaller;
+  padding-top: 5px;
+}
+.list1 {
+  font-size: 11px;
+  font-weight: lighter;
+}
+.price1 {
+  text-decoration: line-through;
+}
+
+/*international purchases */
+.international {
+  background-color: white;
+  width: 1451px;
+  height: 275px;
+  position: relative;
+  left: 33px;
+  bottom: 75px;
+}
+.internationalpics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+/* sign in box */
+.sign {
+  background-color: white;
+  width: 100%;
+  height: 165px;
+  position: relative;
+  bottom: 45px;
+}
+.sign2 {
+  width: 100%;
+  height: 105px;
+  border: 0.5px solid rgb(189, 185, 185);
+  border-radius: 5px;
+  position: relative;
+  top: 35px;
+}
+.recommendations {
+  text-align: center;
+  font-size: 14px;
+}
+.button1 {
+  display: flex;
+  justify-content: center;
+}
+.buttonbox {
+  background-color: #fac338;
+  width: 270px;
+  height: 30px;
+  text-align: center;
+  border-color: orange;
+  border-radius: 4px;
+  margin-top: 3px;
+}
+.newcustomer {
+  text-decoration: none;
+}
+.sign3 {
+  margin-top: 25px;
+}
+.customer {
+  margin-top: 3px;
+}
+.recommend {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 8px;
+  font-size: small;
+}
+
+/* back to top box */
+.top {
+  background-color: #232f3ee4;
+  color: white;
+  height: 50px;
+  width: 100%;
+}
+.top1 {
+  padding-top: 20px;
+  padding-left: 50%;
+  font-size: medium;
+}
+
+/* final */
+.final {
+  width: 100%;
+  height: 500px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-evenly;
+}
+.finalbox {
+  width: 165px;
+  height: 319px;
+  margin-top: 70px;
+  color: white;
+}
+.finalbox2 {
+  width: 230px;
+}
+.finaltext {
+  padding: 5px;
+}
+.text {
+  padding-left: 4px;
+}
+.finalbox3 {
+  width: 230px;
+}
